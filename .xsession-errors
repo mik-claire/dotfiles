@@ -56,3 +56,5 @@ Gtk-Message: 01:38:54.346: GtkDialog mapped without a transient parent. This is 
 ** (mate-settings-daemon:1533): WARNING **: 01:49:24.133: Disable DEBUG
 Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x2200018 (mintMenu.p)
 Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+
+(mate-screensaver:1582): GLib-CRITICAL **: 02:22:38.581: Source ID 32 was not found when attempting to remove it
