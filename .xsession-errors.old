@@ -1,0 +1,70 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/mikaze/.Xauthority
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LC_MEASUREMENT=ja_JP.UTF-8
+dbus-update-activation-environment: setting LC_PAPER=ja_JP.UTF-8
+dbus-update-activation-environment: setting LC_MONETARY=ja_JP.UTF-8
+dbus-update-activation-environment: setting LANG=en_US.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting COMPIZ_CONFIG_PROFILE=mate
+dbus-update-activation-environment: setting MANDATORY_PATH=/usr/share/gconf/mate.mandatory.path
+dbus-update-activation-environment: setting LC_NAME=ja_JP.UTF-8
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/mikaze
+dbus-update-activation-environment: setting USER=mikaze
+dbus-update-activation-environment: setting DESKTOP_SESSION=mate
+dbus-update-activation-environment: setting DEFAULTS_PATH=/usr/share/gconf/mate.default.path
+dbus-update-activation-environment: setting PWD=/home/mikaze
+dbus-update-activation-environment: setting HOME=/home/mikaze
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/mate:/home/mikaze/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=mate
+dbus-update-activation-environment: setting LC_ADDRESS=ja_JP.UTF-8
+dbus-update-activation-environment: setting LC_NUMERIC=ja_JP.UTF-8
+dbus-update-activation-environment: setting GTK_MODULES=gail:atk-bridge
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting XDG_CURRENT_DESKTOP=MATE
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_US
+dbus-update-activation-environment: setting LC_TELEPHONE=ja_JP.UTF-8
+dbus-update-activation-environment: setting GDMSESSION=mate
+dbus-update-activation-environment: setting LOGNAME=mikaze
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/mikaze/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-mate:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+dbus-update-activation-environment: setting LC_IDENTIFICATION=ja_JP.UTF-8
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+mate-session[1201]: WARNING: Unable to find provider '' of required component 'dock'
+Window manager warning: Log level 16: XPresent is not compatible with your current system configuration.
+Traceback (most recent call last):
+  File "/usr/lib/blueberry/blueberry-obex-agent.py", line 41, in <module>
+    if not os.path.exists(SHARED_PATH):
+  File "/usr/lib/python2.7/genericpath.py", line 26, in exists
+    os.stat(path)
+TypeError: coercing to Unicode: need string or buffer, NoneType found
+
+(nm-applet:1748): Gtk-WARNING **: 01:33:11.482: Can't set a parent on widget which has a parent
+
+(nm-applet:1748): Gdk-CRITICAL **: 01:33:12.461: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x1c00018 (mintMenu.p)
+Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+Window manager warning: Buggy client sent a _NET_ACTIVE_WINDOW message with a timestamp of 0 for 0x1c00018 (mintMenu.p)
+Window manager warning: meta_window_activate called by a pager with a 0 timestamp; the pager needs to be fixed.
+Gtk-Message: 01:35:51.413: GtkDialog mapped without a transient parent. This is discouraged.
+Window manager warning: CurrentTime used to choose focus window; focus window may not be correct.
+Window manager warning: Got a request to focus the no_focus_window with a timestamp of 0.  This shouldn't happen!
+Gdk-Message: 01:35:53.082: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 01:35:53.082: mate-volume-control-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 01:35:53.083: mintUpdate.py: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+

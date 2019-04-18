@@ -1,0 +1,5 @@
+classify-client.services.mozilla.com:HSTS	0	18004	1587141291011,1,0,2
+tiles.services.mozilla.com:HSTS	0	18004	1587141293917,1,0,2
+www.google-analytics.com:HSTS	0	18004	1566491693874,1,1,2
+shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	0	18004	1587141293322,1,1,2
+normandy.cdn.mozilla.net:HSTS	0	18004	1587141293500,1,0,2
