@@ -1,0 +1,11 @@
+# ignore all
+/*
+/.**
+
+# do not ignore
+!/.zshrc
+!/.git
+!/.gitconfig
+
+!/.gitignore
+
