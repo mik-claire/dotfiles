@@ -5,6 +5,7 @@
 # do not ignore
 !/bin
 !/.zshrc
+!/.vimrc
 !/.gitconfig
 
 !/.gitignore
