@@ -3,6 +3,7 @@
 /.**
 
 # do not ignore
+!/bin
 !/.zshrc
 !/.git
 !/.gitconfig
