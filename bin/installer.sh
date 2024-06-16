@@ -13,13 +13,19 @@ execute () {
 
   for dotfile in ${dotfiles_dir}/.??*; do
     local dotfile_name="$(basename ${dotfile})"
+    if [ "${dotfile_name}" == ".git" ] || [ "${dotfile_name}" == ".gitignore" ]; then
+      continue
+    fi
+
     local old_dotfile="${home_dir}/${dotfile_name}"
     if [ -e "${old_dotfile}" ] && [ ! -L "${old_dotfile}" ]; then
       echo "create backup: ${old_dotfile}"
       mv -f "${old_dotfile}" "${backup_dir}/${dotfile_name}"
     fi
-    ln -nfs "${dotfile}" "${home_dir}/${dotfile_name}"
-    echo "create link ${dotfile_name}"
+    if [ ! -e "${old_dotfile}" ]; then
+      ln -nfs "${dotfile}" "${home_dir}/${dotfile_name}"
+      echo "create link ${dotfile_name}"
+    fi
   done
 }
 
