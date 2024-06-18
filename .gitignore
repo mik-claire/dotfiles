@@ -3,10 +3,21 @@
 /.**
 
 # do not ignore
+## script
 !/bin
+
+## zsh
 !/.zshrc
+
+## vim
 !/.vimrc
 !/.vim/
+!/.vim/bundle/
+!/.vim/bundle/rc/
+!/.vim/bundle/rc/dein.toml
+!/.vim/bundle/rc/dein_lazy.toml
+
+## git
 !/.gitconfig
 !/.gitignore
 
