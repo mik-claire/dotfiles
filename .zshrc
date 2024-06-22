@@ -1,5 +1,4 @@
-
-echo -n "loading .zshrc ... "
+echo -n "### loading .zshrc ... "
 
 export LSCOLORS=gxfxcxdxbxegedabagacad
 alias ls='ls -GF'
