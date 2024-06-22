@@ -5,7 +5,6 @@
 	encoding = utf-8
 [core]
 	quotepath = false
-	excludesfile = C:/Users/Mikaze/.gitignore
 	pager = "LESSCHARSET=utf-8 less -m"
 	quotepath = false
 [color]
@@ -17,6 +16,4 @@
 	co = checkout
   cp = cherry-pick
 	fe = fetch --prune
-	graph = "log --all --graph --date=format:'%Y/%m/%d %a %H:%M:%S' --pretty=format:'%C(yellow)%h %C(green)%ad %C(reset)%s %C(cyan)[%an] %C(auto)%d'"
 	gr = "log --all --graph --date=format:'%Y/%m/%d %a %H:%M:%S' --pretty=format:'%C(yellow)%h %C(green)%ad %C(reset)%s %C(cyan)[%an] %C(auto)%d'"
-	plog = log --all --graph --decorate
