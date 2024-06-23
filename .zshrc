@@ -7,4 +7,7 @@ alias current="open ."
 alias quit="exit"
 alias reload="exec $SHELL -l"
 
+. /usr/local/opt/asdf/libexec/asdf.sh
+
 echo "Success!"
+
