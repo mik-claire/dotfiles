@@ -27,6 +27,10 @@ endif
 
 " ================================================
 
+" common
+let ayucolor="mirage"
+colorscheme ayu
+" colorscheme iceberg
 set nowritebackup
 set nobackup
 set virtualedit=block
