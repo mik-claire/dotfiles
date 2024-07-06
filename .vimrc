@@ -53,8 +53,8 @@ set cmdheight=2
 set laststatus=2
 set showcmd
 set display=lastline
-set list
-set listchars=tab:^\ ,trail:~
+" set list
+" set listchars=tab:^\ ,trail:~
 set shiftwidth=4
 set expandtab
 set softtabstop=2
