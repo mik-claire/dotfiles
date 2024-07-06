@@ -6,6 +6,13 @@
 ## script
 !/bin
 
+## config
+!/.config/
+!/.config/git/
+!/.config/git/ignore
+!/.config/karabiner/
+!/.config/karabiner/karabiner.json
+
 ## zsh
 !/.zprofile
 !/.zshrc
