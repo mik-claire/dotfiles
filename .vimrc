@@ -69,3 +69,6 @@ syntax on
 set nrformats=
 set whichwrap=b,s,h,l,<,>,[,],~
 
+" edit
+nnoremap - <C-x>
+nnoremap + <C-a>
