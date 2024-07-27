@@ -37,6 +37,7 @@ set virtualedit=block
 set backspace=indent,eol,start
 set ambiwidth=double
 set wildmenu
+set clipboard+=unnamed
 
 " search
 set ignorecase
