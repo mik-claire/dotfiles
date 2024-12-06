@@ -1,0 +1,254 @@
+{
+    "profiles": [
+        {
+            "complex_modifications": {
+                "rules": [
+                    {
+                        "description": "[Terminal] Turn off IME for Vim",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "^ja$" }],
+                                        "type": "input_source_if"
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$",
+                                            "^org\\.vim$",
+                                            "^org\\.alacritty$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": { "key_code": "escape" },
+                                "to": [{ "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "input_sources": [{ "language": "^ja$" }],
+                                        "type": "input_source_if"
+                                    },
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal$",
+                                            "^org\\.vim$",
+                                            "^org\\.alacritty$"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "c",
+                                    "modifiers": { "mandatory": ["left_control"] }
+                                },
+                                "to": [{ "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "[Terminal] Swap command+space to control+space",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal",
+                                            "^org\\.alacritty"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": { "mandatory": ["left_command"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": ["left_control"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "[Terminal] Swap control+shift+space to command+shift+space",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal",
+                                            "^org\\.alacritty"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "spacebar",
+                                    "modifiers": { "mandatory": ["left_control", "left_shift"] }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": ["left_command", "left_shift"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "[Terminal] Swap command+tab with control+tab optional shift",
+                        "manipulators": [
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal",
+                                            "^org\\.alacritty"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": ["left_control"],
+                                        "optional": ["shift", "caps_lock"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": ["left_control"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal",
+                                            "^org\\.alacritty"
+                                        ],
+                                        "type": "frontmost_application_if"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": ["left_command"],
+                                        "optional": ["shift", "caps_lock"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
+                        "description": "Swap for left modifier keys",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": ["left_control"],
+                                        "optional": ["shift", "caps_lock"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": ["left_command"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "from": {
+                                    "key_code": "tab",
+                                    "modifiers": {
+                                        "mandatory": ["left_command"],
+                                        "optional": ["shift", "caps_lock"]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "key_code": "tab",
+                                        "modifiers": ["left_control"]
+                                    }
+                                ],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal",
+                                            "^org\\.alacritty"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_control",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_command" }],
+                                "type": "basic"
+                            },
+                            {
+                                "conditions": [
+                                    {
+                                        "bundle_identifiers": [
+                                            "^com\\.apple\\.Terminal",
+                                            "^org\\.alacritty"
+                                        ],
+                                        "type": "frontmost_application_unless"
+                                    }
+                                ],
+                                "from": {
+                                    "key_code": "left_command",
+                                    "modifiers": { "optional": ["any"] }
+                                },
+                                "to": [{ "key_code": "left_control" }],
+                                "type": "basic"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "devices": [
+                {
+                    "identifiers": { "is_keyboard": true },
+                    "simple_modifications": [
+                        {
+                            "from": { "key_code": "caps_lock" },
+                            "to": [{ "key_code": "left_control" }]
+                        },
+                        {
+                            "from": { "key_code": "left_control" },
+                            "to": [{ "key_code": "caps_lock" }]
+                        }
+                    ]
+                }
+            ],
+            "name": "Default profile",
+            "selected": true,
+            "virtual_hid_keyboard": { "keyboard_type_v2": "ansi" }
+        }
+    ]
+}

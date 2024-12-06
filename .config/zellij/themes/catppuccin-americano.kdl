@@ -1,0 +1,17 @@
+themes {
+  catppuccin-americano {
+    bg "#5b6078" // Surface2
+    fg "#f0f8ff" // Text
+    red "#8796ed"
+    // green "#95a6da"
+    green "#00bfff"
+    blue "#8aadf4"
+    yellow "#9fd4ee"
+    magenta "#bde6f5" // Pink
+    // orange "#7fa9f5" // Peach
+    orange "#ffa2ff" // Peach
+    cyan "#91d7e3" // Sky
+    black "#1e2030" // Mantle
+    white "#cad3f5" // Text
+  }
+}

@@ -1,0 +1,12 @@
+bind generic g move-first-line
+bind generic G none
+bind generic G move-last-line
+
+bind generic <Ctrl-f> move-page-down
+bind generic <Ctrl-b> move-page-up
+
+bind generic <Ctrl-j> next
+bind generic <Ctrl-k> previous
+
+set ignore-space = all
+set ignore-case = true

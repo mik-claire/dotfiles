@@ -1,0 +1,26 @@
+[user]
+  name = mik_claire
+  email = mik.claire.noir@gmail.com
+[core]
+  autocrlf = false
+  quotepath = false
+[push]
+  autoSetupRemote = true
+[pager]
+  log = less -i
+  diff = less -i
+[color]
+  ui = auto
+[gui]
+  encoding = utf-8
+[alias]
+  st = status
+  gr = log --all --graph --pretty='format:%C(yellow)%h %C(green)%ad %C(reset)%s $C(cyan)[%an] %C(auto)%d' --date=iso-local
+  br = branch
+  co = checkout
+  cm = commit -m
+  fe = fetch --prune
+  cp = cherry-pick
+
+[init]
+	defaultBranch = main

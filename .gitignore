@@ -1,0 +1,36 @@
+### ignore all
+/*
+/.**
+
+!/bin
+!/_bk/
+!/_bk/.zshrc_p10k
+
+!/.zshrc
+!/.zprofile
+!/.tigrc
+!/.p10k.zsh
+
+# .config
+!/.config
+!/.config/alacritty/
+!/.config/alacritty/alacritty.toml
+!/.config/bat/
+!/.config/bat/config
+!/.config/karabiner/
+!/.config/karabiner/karabiner.json
+# !/.config/raycast/
+!/.config/starship.toml
+!/.config/zellij/
+!/.config/zellij/config.kdl
+!/.config/zellij/layouts/
+!/.config/zellij/layouts/**
+!/.config/zellij/themes/
+!/.config/zellij/themes/**
+
+# vim
+!/.vimrc
+
+# git
+!.gitconfig
+!.gitignore
