@@ -22,7 +22,10 @@
                                     }
                                 ],
                                 "from": { "key_code": "escape" },
-                                "to": [{ "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }],
+                                "to": [
+                                    { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } },
+                                    { "key_code": "escape" }
+                                ],
                                 "type": "basic"
                             },
                             {
@@ -44,7 +47,13 @@
                                     "key_code": "c",
                                     "modifiers": { "mandatory": ["left_control"] }
                                 },
-                                "to": [{ "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } }],
+                                "to": [
+                                    { "select_input_source": { "input_source_id": "^com\\.apple\\.keylayout\\.ABC$" } },
+                                    {
+                                        "key_code": "c",
+                                        "modifiers": ["left_control"]
+                                    }
+                                ],
                                 "type": "basic"
                             }
                         ]
