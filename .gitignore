@@ -12,13 +12,16 @@
 !/.p10k.zsh
 
 # .config
-!/.config
+!/.config/
 !/.config/alacritty/
 !/.config/alacritty/alacritty.toml
 !/.config/alacritty/custom_themes/
 !/.config/alacritty/custom_themes/aoharu.toml
 !/.config/bat/
 !/.config/bat/config
+!/.config/bat/themes/
+!/.config/bat/themes/Nord-mik/
+!/.config/bat/themes/Nord-mik/Nord-mik.tmTheme
 !/.config/karabiner/
 !/.config/karabiner/karabiner.json
 # !/.config/raycast/
