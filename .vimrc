@@ -4,6 +4,7 @@ call jetpack#begin()
 Jetpack 'tani/vim-jetpack', {'opt': 1} "bootstrap
 Jetpack 'nordtheme/vim'
 Jetpack 'preservim/nerdtree'
+Jetpack 'mik-claire/colorizer-fg'
 call jetpack#end()
 
 " colorscheme
@@ -59,5 +60,9 @@ inoremap ' ''<LEFT>
 inoremap " ""<LEFT>
 nnoremap + <C-a>
 nnoremap - <C-x>
+nnoremap <C-j> <C-e>
+nnoremap <C-k> <C-y>
+
+" NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 
