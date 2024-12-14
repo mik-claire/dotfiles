@@ -1,0 +1,31 @@
+# colors (aoharu)
+
+# default colors
+[colors.primary]
+background        = "#252A35" # @midnight blue
+foreground        = "#f0f8ff" # alice blue
+# dim_foreground    = "#696969" # dim gray
+# bright_foreground = "#f0ffff" # azure
+
+# normal colors
+[colors.normal]
+black   = "#696969" # dim gray
+red     = "#fbdade" # sakura iro
+green   = "#87eefb" # sky blue*
+yellow  = "#9dccf0" # $mizu iro*
+blue    = "#4eb0ff" # dodger blue*
+magenta = "#fa9cb8" # toki iro
+cyan    = "#afeeee" # pale turquoise
+white   = "#f8f8ff" # ghost white
+
+# bright colors
+[colors.bright]
+black   = "#8c9cac" # @silver gray*
+red     = "#ffc0cb" # pink
+green   = "#7fffd4" # aquamarine
+yellow  = "#ffff00" # @baby blue*
+blue    = "#6495ed" # corn flower blue
+magenta = "#ee82ee" # magenta
+cyan    = "#e0ffff" # light cyan
+white   = "#ffffff" # white
+

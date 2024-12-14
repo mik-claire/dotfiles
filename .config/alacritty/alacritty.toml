@@ -1,7 +1,7 @@
 [general]
 import = [
-  # "~/.config/alacritty/themes/themes/nord.toml",
-  "~/.config/alacritty/themes/themes/ayu_mik.toml"
+  # "~/.config/alacritty/themes/themes/ayu_mirage.toml",
+  "~/.config/alacritty/custom_themes/aoharu.toml",
 ]
 
 [env]
@@ -12,7 +12,7 @@ dimensions.columns = 350
 dimensions.lines = 100
 position.x = 0
 position.y = 0
-padding.x = 10
+padding.x = 30
 padding.y = 10
 decorations = "Buttonless"
 opacity = 0.8
@@ -20,24 +20,33 @@ blur = true
 option_as_alt = "Both"
 
 [font]
-normal.family = "HackGen35 Console NF"
+normal.family = "UDEV Gothic 35NFLG"
 normal.style = "Regular"
-bold.family = "HackGen35 Console NF"
+bold.family = "UDEV Gothic 35NFLG"
 bold.style = "Regular"
-italic.family = "HackGen35 Console NF"
+italic.family = "UDEV Gothic 35NFLG"
 italic.style = "Regular"
-bold_italic.family = "HackGen35 Console NF"
+bold_italic.family = "UDEV Gothic 35NFLG"
 bold_italic.style = "Regular"
+# normal.family = "HackGen35 Console NF"
+# normal.style = "Regular"
+# bold.family = "HackGen35 Console NF"
+# bold.style = "Regular"
+# italic.family = "HackGen35 Console NF"
+# italic.style = "Regular"
+# bold_italic.family = "HackGen35 Console NF"
+# bold_italic.style = "Regular"
 size = 14
 
 [colors]
 cursor.text = "#66ccff"
 cursor.cursor = "#66ccff"
+# draw_bold_text_with_bright_colors = true
 
 [cursor]
 style.shape = "Beam"
 style.blinking = "Always"
-thickness = 0.35
+thickness = 0.4
 
 [terminal]
 shell.program = "/bin/zsh"

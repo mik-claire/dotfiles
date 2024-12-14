@@ -15,6 +15,8 @@
 !/.config
 !/.config/alacritty/
 !/.config/alacritty/alacritty.toml
+!/.config/alacritty/custom_themes/
+!/.config/alacritty/custom_themes/aoharu.toml
 !/.config/bat/
 !/.config/bat/config
 !/.config/karabiner/
