@@ -3,6 +3,7 @@
 /.**
 
 !/bin
+!/README.md
 !/_bk/
 !/_bk/.zshrc_p10k
 
