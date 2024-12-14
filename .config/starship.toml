@@ -18,7 +18,7 @@ read_only = " 󰌾"
 
 [fill]
 symbol = "─"
-style = "#483d8b"
+style = "#8c9cac"
 
 [os]
 format = "$symbol"
@@ -49,10 +49,10 @@ error_symbol = "[❯](#f08080)"
 
 [cmd_duration]
 disabled = false
-min_time = 1
+min_time = 100
 show_milliseconds = true
-format = "  $duration"
+format = "[ 󱦟 $duration](#b0c4de)"
 
 [time]
 disabled = false
-format = "  $time "
+format = "[  $time ](#b0c4de)"
