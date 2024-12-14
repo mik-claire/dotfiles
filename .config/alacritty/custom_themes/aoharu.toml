@@ -15,7 +15,7 @@ green   = "#87eefb" # sky blue*
 yellow  = "#9dccf0" # $mizu iro*
 blue    = "#4eb0ff" # dodger blue*
 magenta = "#fa9cb8" # toki iro
-cyan    = "#afeeee" # pale turquoise
+cyan    = "#B0E0E6" # powder blue
 white   = "#f8f8ff" # ghost white
 
 # bright colors
@@ -26,6 +26,6 @@ green   = "#7fffd4" # aquamarine
 yellow  = "#ffff00" # @baby blue*
 blue    = "#6495ed" # corn flower blue
 magenta = "#ee82ee" # magenta
-cyan    = "#e0ffff" # light cyan
+cyan    = "#afeeee" # pale turquoise
 white   = "#ffffff" # white
 
