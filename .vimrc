@@ -4,6 +4,8 @@ call jetpack#begin()
 Jetpack 'tani/vim-jetpack', {'opt': 1} "bootstrap
 Jetpack 'nordtheme/vim'
 Jetpack 'preservim/nerdtree'
+Jetpack 'vim-airline/vim-airline'
+Jetpack 'vim-airline/vim-airline-themes'
 Jetpack 'mik-claire/colorizer-fg'
 call jetpack#end()
 
@@ -65,4 +67,13 @@ nnoremap <C-k> <C-y>
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
+
+" vim-airline
+" let g:airline_theme='bubblegum'
+let g:airline_powerline_fonts = 1
+let g:airline_section_x = airline#section#create([])
+let g:airline_section_z = airline#section#create(['linenr', 'maxlinenr'])
+let g:airline_section_error = airline#section#create([])
+let g:airline_section_warning = airline#section#create([])
+let g:airline#extensions#branch#enabled = 0
 
