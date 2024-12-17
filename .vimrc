@@ -52,12 +52,12 @@ set nrformats=
 set whichwrap=b,s,h,l,<,>,[,],~
 
 " edit
-inoremap { {}<LEFT>
-inoremap [ []<LEFT>
-inoremap ( ()<LEFT>
-inoremap < <><LEFT>
-inoremap ' ''<LEFT>
-inoremap " ""<LEFT>
+inoremap {} {}<LEFT>
+inoremap [] []<LEFT>
+inoremap () ()<LEFT>
+inoremap <> <><LEFT>
+inoremap '' ''<LEFT>
+inoremap "" ""<LEFT>
 nnoremap + <C-a>
 nnoremap - <C-x>
 nnoremap <C-j> <C-e>
