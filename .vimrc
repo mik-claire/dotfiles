@@ -10,7 +10,7 @@ Jetpack 'mik-claire/colorizer-fg'
 call jetpack#end()
 
 " colorscheme
-" set termguicolors
+set termguicolors
 colorscheme nord
 
 " common
@@ -77,3 +77,7 @@ let g:airline_section_error = airline#section#create([])
 let g:airline_section_warning = airline#section#create([])
 let g:airline#extensions#branch#enabled = 0
 
+
+hi Normal guibg=NONE
+hi Comment guifg=#778899
+hi LineNr guifg=#778899
