@@ -2,11 +2,10 @@ echo -n "### Loading .zshrc ..."
 
 # alias
 export LSCOLORS=cxfxcxdxbxegedabagacad
-# alias ls='ls -GF'
 alias ls='eza --icons'
-alias la='ls -la'
+alias la='ls -lah'
 alias cat='bat -pp --theme=ansi'
-alias less='bat --paging=always --theme=ansi'
+alias less='bat -p --paging=always --theme=ansi'
 alias reload='exec $SHELL -l'
 alias clip='~/sandbox/dev/shell/clip-path.sh .'
 alias quit='exit'
