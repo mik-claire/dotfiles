@@ -38,5 +38,6 @@
 !/.vimrc
 
 # git
-!.gitconfig
+!/.config/git/
+!/.config/git/config
 !.gitignore
